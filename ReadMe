@@ -1,0 +1,10 @@
+follow these steps to install JDK JRE 7u51 on any Lunix x86_64 machine especially EC2
+in tar file
+$ cat javat* > output.tar.gz
+
+#extract tar file
+$ tar -zxvf output.tar.gz
+
+# run rpm on both files
+$ rpm -Uvh jdk**.rpm
+$ prm -Uvh jre**.rpm
